@@ -96,7 +96,7 @@ hr {
     padding: 0 25px;
 }
 
-.medlem {
+#medlem {
     background: #137;
     border: none;
     padding: 15px;
@@ -104,7 +104,7 @@ hr {
     transition: all 200ms ease-in-out;
 }
 
-.medlem:hover {
+#medlem:hover {
     box-shadow: 0 0 10px 0 #0008;
     background: rgb(1, 160, 252);
 }
