@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    font-family: Helvetica;
+}
+
+p, h1, h2, h3, h4, h5, h6, ul, ol, li, label {
+    color: #fff;
+}
+
+h3{
+    font-size: 30px;
+    margin: 30px 0;
+}
+
+p {
+    font-size: 20px;
+}
+
+li {
+    font-size: 25px;
+}
+
+body {
+    width: 100vw;
+    min-height: 100vh;
+    position: relative;
+}
+ul{
+    color:gray;
+    font-family: Arial, Helvetica, sans-serif;
+    line-height: 25px;
+    font-size: 20px;
+    
+}
+
+#titel {
+    background-color: #248;
+    text-align: center;
+    font-size: 30px;
+    padding: 15px;
+    box-shadow: 0 0 10px 0 #0005;
+
+}
+
+
+
+form{
+    text-align: center;
+    font-size: 30px;
+}
+
+a{
+    background-color:rgb(28, 28, 155) ;
+    color: white;
+    font-size: 20px;
+}
+   
+
+#bakgrund{
+    width: 100%;
+    height: 100%;
+    background: url('bakgrund.jpg');
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: fixed;
+    z-index: -1;
+    filter: brightness(30%);
+    animation: slide 10s infinite;
+
+}
+
+@keyframes slide {
+0% {background-image: url(bakgrund.jpg);}
+
+33% {background-image: url(hej.jpg);}
+
+67% {background-image: url(hej3.jpg);}
+
+100% {background-image: url(hej2.jpg);}
+}
+
+
+#logo {
+    height: 70px;
+    position: absolute;
+    left: 15px;
+}
+
+hr {
+    border: none;
+    border-bottom: 1px solid #fff3;
+    margin: 15px 0;
+}
+
+#wrapper {
+    padding: 0 25px;
+}
+
+.medlem {
+    background: #137;
+    border: none;
+    padding: 15px;
+    cursor: pointer;
+    transition: all 200ms ease-in-out;
+}
+
+.medlem:hover {
+    box-shadow: 0 0 10px 0 #0008;
+    background: rgb(1, 160, 252);
+}
+
+
+
+.bliMedlem{
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration:none;
+}
